@@ -42,8 +42,8 @@
     "view:sun_elevation": 1.766746,
     "view:off_nadir": 0,
     "ssys:productid": "I17446018",
-    "ssys:source": "path to the image file used for product creation",
-    "ssys:detached_label": "path to the detached label used for product creation",
+    "ssys:source": "path to the image file used for product creation", #marked for deletion
+    "ssys:detached_label": "path to the detached label used for product creation", #marked for deletion
     "ssys:upctime": "2005-11-19 20:43:09.008Z",
     "ssys:upcid": 4545098,
     "ssys:isisid": 343098098,
@@ -99,12 +99,12 @@
   "links": [
     {
     "rel": "self",
-    "href": "path/to/this/catalog.json"
+    "href": "path/to/this/item.json"
     },
     {
     "rel": "root",
     "href": "./catalog.json",
-    "child": "path/to/child/catalog.json"
+    "child": "path/to/catalog.json"
     }
   ]
   }
